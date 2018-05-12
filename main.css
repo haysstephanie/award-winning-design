@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* tags */
+
+$grid-columns: 16 !default;
+$grid-gutter-width: 30px !default;
+
+body,h1,h2,h4,h5,h6 {font-family: "Merriweather", sans-serif;}
+
+h3 {
+    font-family: "Oswald";
+    font-size: 250%;
+    text-align: left;
+}
+
+h5 {
+    font-size: 130%;
+}
+
+h6 {
+    font-size: 100%;
+}
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+    
+p {
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 105%;
+}
+
+a:hover {
+    color: rgb(255,127,43);
+    text-decoration: none;
+}
+
+canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+div#canvas-holder {
+        float: left;
+        padding: 20px;
+}
+        
+div#canvas-holder2 {
+        float: left;
+        padding: 20px;
+}
+
+div#canvas-holder3 {
+        float: left;
+        padding: 20px;
+}
+
+div#canvas-holder4 {
+        float: left;
+        padding: 20px;
+}
+
+div#canvas-holder5 {
+        float: left;
+        padding: 20px;
+}
+
+div#canvas-holder5 {
+        float: left;
+        padding: 20px;
+}
+
+/* header DO NOT TOUCH */
+
+
+.w3-bar {
+    background-color: white;
+}
+
+.w3-wide {
+    letter-spacing: 30px;
+    font-size: 200%;
+}
+
+.w3-left {
+    margin-top: 500px;   
+}
+    
+.w3-bar-item {
+    background-color: white;
+}
+
+.header-image {
+    width: 300px;
+    z-index: 10;
+}
+
+/* cover image */
+   
+.image-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0px;
+    z-index:0;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+/* body */
+
+.container {
+    padding-top: 50px;
+}
+
+.row-2 {
+    width: 100%;
+    margin: auto;
+}
+
+.grid-test {
+    display: grid;
+    grid-template-columns: 4fr 8fr 4fr;
+    grid-gap: 3em;
+}
+
+.main-article {
+    grid-column: 2/3;
+}
+
+/*
+.byline {
+    
+    margin-bottom: 50px;
+     font-size: 100%; 
+    color: white;
+}
+*/
+
+.dateline {
+    font-family: OSwald;
+    font-size: 140%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.deck {
+    margin-left: 40px;
+}
+
+.deck-line {
+    font-size: 65%;
+    line-height: 110%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    color: white;
+    font-family: Oswald;
+    text-transform: uppercase;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.byline-bike {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 100%;
+    text-transform: none;
+}
+
+.dropcap { 
+    font-family: "Merriweather";
+    font-size: 550%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: -30px;
+    color: rgb(197, 5, 13);
+}
+
+
+.fact-box-header {
+    border-bottom: solid;
+    border-bottom-color: gray;
+    border-bottom-width: thin;
+    font-family: Oswald;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: rgb(255,127,43);
+    padding-bottom: 5px;
+}
+
+.fact-box-big-number {
+    font-family: Oswald;
+    font-size: 400%;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: -2px;
+}
+
+.fact-box-copy {
+    margin-top: 0px;
+    font-size: 90%;
+    font-family: Merriweather;
+}
+
+.design-factors-list {
+    
+    margin-top: 10px;
+    margin-left: -10px;
+    
+}
+
+.link {
+    margin-top: 20px;
+}
+
+.photo-credit {
+   // text-align: right;
+}
+
+.pull-quote {
+    font-family: Oswald;
+    text-transform: uppercase;
+    font-size: 200%;
+    line-height: 130%;
+}
+
+.pull-quote-name {
+    margin-top: 20px;
+    font-size: 140%; 
+}
+
+.pull-quote-title {
+   margin-top: -10px;
+   font-size: 140%;
+   line-height: 100%;
+}
+
+.photo-credit {
+    font-size: 80%;
+    margin-top: 5px;
+}
+
+.subhead {
+    font-family: Oswald;
+    font-size: 130%;
+    text-transform: uppercase;
+}
+
+
+/* static adjustments */
+
+.subhead {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 170%;
+    font-weight: lighter;
+    margin-top: 40px;
+    color: rgb(255,127,43);
+    line-height: 120%;
+    padding-bottom: 5px;
+}
+
+.sub-subhead {
+    font-family: Merriweather;
+    font-size: 120%;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+
+.pull-quote {
+    letter-spacing: -.5px;
+    line-height: 110%;
+}
+
+.pull-quote-name {
+    font-family: Oswald;
+    font-weight: bold;
+}
+
+.pull-quote-title {
+    font-family: Oswald;
+    margin-top: -20px;
+}
+
+.interview-header {
+    grid-column: 1/5;
+    text-align: center;
+    border-bottom: none;
+}
+
+.photo {
+    border: solid 1px gray;
+    margin-bottom: 10px;
+}
+
+.card {
+    border: none; 
+}
+
+
+/* multimedia */
+
+.main-article-fix {
+    grid-column: 2/3;
+}
+
+.cover-image {
+    margin-left: -600px;
+}
+
+#deck {
+    visibility: hidden;
+}
+
+.photo-special {
+    padding-top: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+    width: 100%;
+    grid-column: 1/4;
+}
+
+.photo-small {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 60%
+}
+
+.collapse-content {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+}
+
+.headline {
+    font-family: Oswald;
+    font-size: 600%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 110%;
+    margin-top: 50px;
+}
+
+.secondary-headline {
+    font-family: Oswald;
+    font-weight: 200;
+    text-align: center;
+    font-size: 150%;
+    line-height: 120%;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px;
+}
+
+.secondary-headline-main {
+    font-family: Oswald;
+    font-weight: 200;
+    text-align: center;
+    font-size: 150%;
+    line-height: 120%;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.lit-review-headline {
+    font-family: Oswald;
+    font-size: 400%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 110%;
+    margin-top: 50px;
+}
+
+.overall-results {
+    
+    margin-top: 30px;
+    
+}
+
+.methodology-sidebar {
+    
+    padding-top: 400px;
+    
+}
+
+.methodology-example-sidebar {
+    
+    padding-top: 1230px;
+    
+}
+
+.design-factors-sidebar {
+    
+    padding-top: 650px;
+    
+}
+
+.media-logic-sidebar {
+    
+    padding-top: 1200px;
+    
+}
+
+.discussion-sidebar {
+    
+    
+}
+
+.literature-review {
+    
+    margin-bottom: 50px;
+    
+}
+
+.sub-sub-subhead {
+    
+    font-style: italic;
+    
+}
+
+.example-image {
+    
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.example-image-1 {
+    
+    float: left;
+    margin-right: 10px;
+    
+}
+
+
+
+.bitmap-image-1 {
+    
+    float: left;
+    margin-bottom: 20px;
+    
+}
+
+.bitmap-image-2 {
+    
+    float: right;
+    margin-bottom: 20px;
+    
+}
+
+.attribution-section {
+    margin-top: 50px;
+    border-top: solid 1px;
+    padding-top: 50px; 
+}
+
+.attribution {
+    font-style: italic;
+    font-size: 80%;
+}
+
+/* map */
+
+
+/* footer */
+
+.footer {
+    margin-top: 50px;
+    color: white;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+    
+@media (max-width: 1600px) {
+
+}
+
+
+@media (max-width: 760px) {
+    
+    .cover-image {
+        margin-left: 0px;
+    }
+       
+    .main-article {
+        grid-column: 1/4;
+    }
+ 
+    .photo-small { 
+        width: 100%;
+    }
+    
+    .sidebar {
+        grid-column: 1/4;
+    }
+    
+ 
+    .grid-test {
+        grid-column: 1;
+    }
+
+    
+    .interview {
+        grid-column: 1/5;
+    } 
+ 
+    .deck {
+        margin-left: 35px;
+        width: 285px;
+        font-size: 34px;
+    }
+    
+    .deck-line {
+        margin-top: 0px;
+     }
+    
+    .sidebar-links {
+        display: none; 
+    }
+    
+    .methodology-sidebar {
+    
+    padding-top: 0px;
+    
+}
+
+.methodology-example-sidebar {
+    
+    padding-top: 0px;
+    
+}
+    
+    .design-factors-sidebar {
+    
+    padding-top: 0px;
+    
+}
+
+.media-logic-sidebar {
+    
+    padding-top: 0px;
+    
+}
+
+}
+
+ @media (max-width: 470px) {
+     
+      .pull-quote-article {
+        grid-column: 1/10;
+    }
+    
+    .pull-quote-article-quote {
+        grid-column: 1/10;
+    }
+}
+
+
+
+
+
+
